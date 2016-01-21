@@ -139,3 +139,7 @@ function parse2Int(num) {
     return parseInt(num, 10);
 }
 console.log(parse2Int('12'), parse2Int('12px'), parse2Int('0x12'));
+
+function reg() {
+    var mobileReg = /^[1][\d]{10}$/;
+}
